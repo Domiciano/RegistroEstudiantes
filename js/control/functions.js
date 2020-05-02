@@ -70,7 +70,7 @@ database.ref().child("estudiantes").on("child_added", function(snapshot){
   document.getElementById(estObj.id).addEventListener("click", function(event){
     event.preventDefault();
     storage.setItem("id", estObj.id);
-    window.location.href = "/agregarmaterias.html"
+    window.location.href = "agregarmaterias.html"
 
   });
 
